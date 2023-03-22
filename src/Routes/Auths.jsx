@@ -19,7 +19,7 @@ const Auth = () => {
 
         <Routes>
 
-          <Route path="/alegre/" element={<Home />}></Route>
+        <Route index element={<Home />}></Route>
           <Route path="/alegre/supermarket" element={<FirtsFloor />}></Route>
           <Route path="/alegre/nails-spa" element={<SecondFloor />}></Route>
           <Route path="/alegre/sport-gym" element={<ThirdFloor />}></Route>
