@@ -10,6 +10,8 @@ import "../public/css/beauty.css";
 import "../public/css/navbarAndFooter.css";
 import "../public/css/carousel.css";
 import "../public/css/supermercado.css";
+
+
   //  phone
   import "../public/css/cssphone/homePhone.css";
   import "../public/css/cssphone/navbarAndFooterPhone.css";
