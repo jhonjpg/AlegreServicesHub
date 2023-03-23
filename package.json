@@ -1,6 +1,7 @@
 {
     "name": "multinivel",
     "private": true,
+    "homepage": "https://jhonjpg.github.io/alegre/dist",
     "version": "0.0.0",
     "type": "module",
     "scripts": {
