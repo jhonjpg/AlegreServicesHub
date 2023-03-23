@@ -1,3 +1,4 @@
+import React from 'react'
 import Auth from "./Routes/Auths"
 
 function App() {
