@@ -27,6 +27,11 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: var(--text-color);
     transition: 1s;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--page-color) !important;
 }
 
 .desketopSesionFirstFloor-sm {
@@ -49,7 +54,7 @@
 
 .slider-out {
     width: 100%;
-    height: 80vh;
+    height: 600px;
     /* clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0 0); */
     /* background-image: url("../assets//img//alegre.jpg"); */
 }
@@ -307,7 +312,6 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
     box-shadow: var(--shadow-color);
     cursor: pointer;
     transition: 1s;
@@ -320,21 +324,35 @@ h2 {
 
 /* contact */
 
+.contactDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 400px;
+    margin-bottom: 6em !important;
+    background: conic-gradient(from 90deg at 50% 50%, rgb(204, 204, 204), rgb(42, 42, 42));
+}
+
 .contact {
     width: 100%;
     display: flex;
     justify-content: space-evenly;
     align-items: flex-start;
-    height: 90vh;
+    height: 100%;
     padding: 1em !important;
 }
 
 .contactFullDiv {
+    position: relative;
+    top: 100px;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    width: 80%;
-    background: conic-gradient(from 90deg at 50% 50%, rgb(204, 204, 204), rgb(42, 42, 42));
+    width: 100%;
     padding: 1.3em !important;
+    height: 80%;
 }
 
 .contactFullDiv h5 {
@@ -344,7 +362,10 @@ h2 {
 }
 
 pre {
-    font-size: 2em !important;
+    width: 100%;
+    text-align: center;
+    font-size: 1.7em !important;
+    color: black;
 }
 
 
@@ -397,7 +418,7 @@ pre {
 
 .container .box {
     width: 19.875em;
-    height: 15.875em;
+    height: 17.875em;
     padding: 1rem;
     background-color: rgba(255, 255, 255, 0.074);
     border: 1px solid rgba(255, 255, 255, 0.222);
@@ -415,8 +436,13 @@ pre {
 }
 
 .container .box .title {
-    font-size: 2rem;
-    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
     text-align: center;
     width: 100%;
 }
@@ -585,4 +611,8 @@ pre {
     height: 100% !important;
     background: linear-gradient(#131313, #f2f2f2);
     margin-right: 10px !important;
+}
+
+#principal {
+    height: 100vh;
 }

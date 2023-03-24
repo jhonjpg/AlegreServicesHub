@@ -23,7 +23,7 @@ const Images = () => {
 
     "https://images.pexels.com/photos/3423860/pexels-photo-3423860.jpeg?auto=compress&cs=tinysrgb&w=1200",
     "https://images.pexels.com/photos/1187299/pexels-photo-1187299.jpeg?auto=compress&cs=tinysrgb&w=1200",
-    "https://images.pexels.com/photos/1860160/pexels-photo-1860160.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    "https://images.pexels.com/photos/8475121/pexels-photo-8475121.jpeg?auto=compress&cs=tinysrgb&w=1200",
     "https://images.pexels.com/photos/1187299/pexels-photo-1187299.jpeg?auto=compress&cs=tinysrgb&w=1200"
 
 

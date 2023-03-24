@@ -19,12 +19,12 @@ const SecondFloor = () => {
 
   const [letra, setLetra] = useState("relajate");
 
-  const beautiful = "beautifu"
+  const beautiful = "beautiful"
 
   useEffect(() => {
     const interval = setInterval(() => {
       setLetra(letra => {
-        const letras = ["relajate", "ponte linda", "arregla tus unas"]; // arreglo con letras
+        const letras = ["relajate", "maquillate", "cuida tu rostro"]; // arreglo con letras
         const letraIndex = letras.indexOf(letra); // obtiene el indice de la letra actual
         return letras[(letraIndex + 1) % letras.length]; // retorna la siguiente letra en el arreglo
       });
@@ -47,7 +47,7 @@ const SecondFloor = () => {
 
 <div className="beautyBigSlide">
 
-
+<h1 className="fs-1 w-100">En desarrollor</h1>
 <div className="bigImage"></div>
   <h3 > {letra} <p>{beautiful}</p> </h3>
 
