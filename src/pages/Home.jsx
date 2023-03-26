@@ -432,9 +432,9 @@ Valoramos la satisfacción del cliente por encima de todo y estamos comprometido
           </div>
 
 
-          <h6 id="contacto">Contaos</h6>
+          <h6 id="contacto">Contactanos</h6>
 
-          <div className="contactFullDiv-sm d-flex  gap-3 flex-column justify-content-center  align-items-center mb-5">
+          <div className="contactFullDiv-sm d-flex  gap-3 flex-column-reverse justify-content-center  align-items-center mb-5">
 
             <div className="container d-flex w-100 justify-content-center align-items-center">
               <div className="box">
@@ -468,15 +468,17 @@ Valoramos la satisfacción del cliente por encima de todo y estamos comprometido
 
 
             <div className="container d-flex  justify-content-center align-items-center">
-              <div className="box d-flex flex-column h-25 justify-content-center align-items-center">
-                <span className="title"> Instagram </span>
+            <div className="box d-flex  justify-content-center align-items-center">
+                <span className="title"> ENCUENTRANOS </span>
                 <div>
-                  <strong>809-456-3232</strong>
-                  <strong>alegre@gmail.com</strong>
+                <strong><i className="bi bi-instagram"></i>  Instagram</strong>
+
+                  <strong> <i className="bi bi-telephone-fill"></i> 809-456-3232</strong>
+                  <strong> <i className="bi bi-envelope-fill"></i> alegre@gmail.com</strong>
+
+                  </div>
 
                 </div>
-
-              </div>
             </div>
 
 

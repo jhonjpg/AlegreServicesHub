@@ -280,9 +280,9 @@ h2 {
 
 .us-down-text {
     width: 100%;
-    padding: 2em !important;
+    padding: 12.3px !important;
     background-color: #f1f1f1;
-    height: 30%;
+    height: 20%;
     border-radius: 14px;
 }
 
@@ -333,6 +333,16 @@ h2 {
     height: 400px;
     margin-bottom: 6em !important;
     background: conic-gradient(from 90deg at 50% 50%, rgb(204, 204, 204), rgb(42, 42, 42));
+}
+
+#contacto {
+    background: linear-gradient(90deg, black, #f3f3f3);
+    background-clip: text;
+    color: transparent;
+    -webkit-background-clip: text;
+    font-size: 3em !important;
+    -webkit-text-stroke: 2px #fff;
+    color: transparent;
 }
 
 .contact {
