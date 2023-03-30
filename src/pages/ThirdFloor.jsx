@@ -1,10 +1,23 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
+import SlickCarousel from '../components/SlickCarousel'
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 
 
 const ThirdFloor = () => {
+
+
+  const settings = {
+    dots: true,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
   return (
 
     <>
@@ -13,195 +26,248 @@ const ThirdFloor = () => {
 
 <Navbar/>
 
-<section className="desketopSesion h-100 ">
-<div className="w-100 h-100 d-flex justify-content-center align-items-center fs-1 ">COMING SOON</div>
+<section className=" ">
 
+<div className="journey ">  <h3>Empieza tu Entrenamiento <span>Hoy</span> </h3> <p>es un gym center de licey al medio ve unete a nosotros   y empieza a start mas cerca de tu cuerpo deseado</p>
 
-</section>
-
-
-
-{/* 
-Phone 
-<section className="phoneSection">
+<button><i className="bi bi-telephone-fill"></i>  LLAMANOS</button>
 
 
 
- <h1> <span> alegre</span><i className="bi bi-cart4"></i></h1>
 
- <div className="vegetable-width-sm">
+<div className="equipment">
 
- <Carousel
-      showArrows={true}
-      showThumbs={false}
-      showStatus={false}
-      infiniteLoop
-      autoPlay
-      interval={5000}
-      transitionTime={1000}
-      transitionEffect="fade"
-      className="carouselfirstFloor-img-sm"
-    >
-      {firstFloorImages.map((imageUrl, index) => (
-        <div key={index} className="">
-          <img src={imageUrl} alt={`CarouselFirstFloor ${index}`} className="carouselfirstFloor-image-sm w-100 h-100 object-fit-contain"/>
-        </div>
-      ))}
-    </Carousel>
+<li>gymPro</li>
+<li>gymPass</li>
 
+</div>
+
+
+</div>
+
+
+<div className="aboutPerformance">
+
+<div className="performance"> <span>MAS DE NOSOTROS</span>
+<h4>ALEGREGYM</h4>
+<aside className="w-100 d-flex flex-column gap-2">
+<p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab optio, pariatur nobis consectetur quibusdam nulla odit sequi dignissimos est inventore incidunt tempora, suscipit rerum quae exercitationem enim! Nulla, iste quidem?
+ </p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab optio, pariatur nobis consectetur quibusdam nulla odit sequi dignissimos est inventore incidunt tempora, suscipit rerum quae exercitationem enim! Nulla, iste quidem?
+</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab optio, pariatur nobis consectetur quibusdam nulla odit sequi dignissimos est inventore incidunt tempora, suscipit rerum quae exercitationem enim! Nulla, iste quidem?
+</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab optio, pariatur nobis consectetur quibusdam nulla odit sequi dignissimos est inventore incidunt tempora, suscipit rerum quae exercitationem enim! Nulla, iste quidem?
+</p>
+
+
+<button>Leer Mas</button>
+
+</aside>
+</div>
+
+<div className="gymPic"></div>
+
+</div>
+
+
+
+<div className="whyUs">
+
+<h4>SOMOS BUENOS PARA TODOS</h4>
+<h5>POR QUE NOSOTROS?</h5>
+
+
+
+<ul className="d-flex justify-content-around gap-4 flex-wrap  w-100 h-100">
+
+  <li>
+<h6> <i className="bi bi-controller"></i>   verdadera atmosfera de gym</h6>
+<p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus perferendis similique itaque, numquam ex, voluptatem consequatur magni voluptate quod modi magnam, minus vero facilis illo praesentium iure eaque! Amet, deserunt!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis sequi odio beatae error molestias similique saepe adipisci, dolores inventore perspiciatis corrupti laboriosam optio omnis aspernatur, nihil sapiente temporibus quasi?</p>
+
+
+  </li>
+  <li><h6><i className="bi bi-display-fill"></i>  verdadera atmosfera de gym</h6>
+<p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus perferendis similique itaque, numquam ex, voluptatem consequatur magni voluptate quod modi magnam, minus vero facilis illo praesentium iure eaque! Amet, deserunt!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis sequi odio beatae error molestias similique saepe adipisci, dolores inventore perspiciatis corrupti laboriosam optio omnis aspernatur, nihil sapiente temporibus quasi?</p>
+</li>
+  <li><h6><i className="bi bi-ev-front-fill"></i>  verdadera atmosfera de gym</h6>
+<p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus perferendis similique itaque, numquam ex, voluptatem consequatur magni voluptate quod modi magnam, minus vero facilis illo praesentium iure eaque! Amet, deserunt!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis sequi odio beatae error molestias similique saepe adipisci, dolores inventore perspiciatis corrupti laboriosam optio omnis aspernatur, nihil sapiente temporibus quasi?</p>
+</li>
+  <li><h6> <i className="bi bi-file-earmark-ppt-fill"></i>  verdadera atmosfera de gym</h6>
+<p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus perferendis similique itaque, numquam ex, voluptatem consequatur magni voluptate quod modi magnam, minus vero facilis illo praesentium iure eaque! Amet, deserunt!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis sequi odio beatae error molestias similique saepe adipisci, dolores inventore perspiciatis corrupti laboriosam optio omnis aspernatur, nihil sapiente temporibus quasi?</p>
+</li>
+</ul>
+
+</div>
+
+<div className="prices">
+<h3 className="w-100 text-center fs-4">Primera entrada gratis</h3>
+    <h4 className="w-100 text-center fs-1 ">PRECIOS</h4>
     </div>
 
 
-<article id="slider-container" className="w-100 d-flex flex-column justify-content-center gap-3 mt-2 ">
-
-    <h4><span className="text-success">A</span>limentate <span className="text-danger">S</span>aludable</h4>
-
-    <div className="vegetable-width-pic-sm">
+<div className="entrance">
 
 
-<h3>Alimentate con nustras <span className="text-success"> Verduras</span>  y Frutas  con Frecura y Calidad</h3> 
+<div className="basic">
+
+<strong>Basic</strong>
+
+<h4>$39/month</h4>
+
+<ul>
+
+<li><i className="bi bi-check-circle-fill"></i> todo los beneficios</li>
+<li><i className="bi bi-check-circle-fill"></i> todo special de entrenador </li>
+<li><i className="bi bi-check-circle-fill"></i> Dos entrenadores personales gratis </li>
+<li><i className="bi bi-check-circle-fill"></i> acceso al sauna </li>
+
+</ul>
 
 </div>
 
-<div className="d-flex justify-content-center w-100">   
+<div className="plus">
 
 
-<div className="slider-fruits-vegetable-sm">
+<strong>Plus</strong>
 
+<h4>$59/month</h4>
 
-<div className="staticSlide-sm">
+<ul>
 
-<Carousel
-      showArrows={false}
-      showThumbs={false}
-      showStatus={false}
-      infiniteLoop
-      autoPlay
-      interval={5000}
-      transitionTime={1000}
-      transitionEffect="fade"
-      className="w-100 h-100 object-fit-cover"
-    >
-      {imagesBlucle.map((imageUrl, index) => (
-        <div key={index} className="">
-          <img src={imageUrl} alt={`CarouselFirstFloor ${index}`} className="carouselfirstFloor-image"/>
-        </div>
-      ))}
-    </Carousel>
+<li><i className="bi bi-check-circle-fill"></i> todo los beneficios</li>
+<li><i className="bi bi-check-circle-fill"></i> todo special de entrenador </li>
+<li><i className="bi bi-check-circle-fill"></i> Dos entrenadores personales gratis </li>
+<li><i className="bi bi-check-circle-fill"></i> acceso al sauna </li>
+<li><i className="bi bi-check-circle-fill"></i> todo special de entrenador </li>
+<li><i className="bi bi-check-circle-fill"></i> Dos entrenadores personales gratis </li>
+<li><i className="bi bi-check-circle-fill"></i> acceso al sauna </li>
 
-
-    <Carousel
-      showArrows={false}
-      showThumbs={false}
-      showStatus={false}
-      infiniteLoop
-      autoPlay
-      interval={5000}
-      transitionTime={1000}
-      transitionEffect="fade"
-      className="w-100 h-100 object-fit-cover"
-    >
-      {firstFloorImages.map((imageUrl, index) => (
-        <div key={index} className="">
-          <img src={imageUrl} alt={`CarouselFirstFloor ${index}`} className="carouselfirstFloor-image"/>
-        </div>
-      ))}
-    </Carousel>
-
-
-    
-</div>
-
-<div className="staticSlide-sm">
-<Carousel
-      showArrows={false}
-      showThumbs={false}
-      showStatus={false}
-      infiniteLoop
-      autoPlay
-      interval={5000}
-      transitionTime={1000}
-      transitionEffect="fade"
-      className="w-100 h-100 object-fit-cover"
-    >
-      {imagesBlucleDos.map((imageUrl, index) => (
-        <div key={index} className="">
-          <img src={imageUrl} alt={`CarouselFirstFloor ${index}`} className="carouselfirstFloor-image"/>
-        </div>
-      ))}
-    </Carousel>
+</ul>
 
 </div>
 
 
-<div className="staticSlide-sm">
+<div className="vip">
 
 
+<strong>VIP</strong>
+
+<h4>$99/month</h4>
+
+<ul>
+
+<li><i className="bi bi-check-circle-fill"></i> todo los beneficios</li>
+<li><i className="bi bi-check-circle-fill"></i> todo special de entrenador </li>
+<li><i className="bi bi-check-circle-fill"></i> Dos entrenadores personales gratis </li>
+<li><i className="bi bi-check-circle-fill"></i> acceso al sauna </li>
+<li><i className="bi bi-check-circle-fill"></i> todo special de entrenador </li>
+<li><i className="bi bi-check-circle-fill"></i> Dos entrenadores personales gratis </li>
+<li><i className="bi bi-check-circle-fill"></i> acceso al sauna </li>
+<li><i className="bi bi-check-circle-fill"></i> acceso al sauna </li>
 
 
-<Carousel
-      showArrows={false}
-      showThumbs={false}
-      showStatus={false}
-      infiniteLoop
-      autoPlay
-      interval={5000}
-      transitionTime={1000}
-      transitionEffect="fade"
-      className="w-100 h-100 object-fit-cover"
-    >
-      {imagesBlucletres.map((imageUrl, index) => (
-        <div key={index} className="">
-          <img src={imageUrl} alt={`CarouselFirstFloor ${index}`} className="carouselfirstFloor-image"/>
-        </div>
-      ))}
-    </Carousel>
-
-</div>
-
-</div>
-
-</div>
-</article>
-
-<div className="enjoy-withUs-sm">
-
-
-
-<h4>DISFRUTA DE NUESTRA VARIEDADES</h4>
+</ul>
 
 </div>
 
 
-<hr className="w-75 p-2 rounded-pill bg-secondary" />
+</div>
 
 
-<div className="scrollWords-sm">
+{/* Phone  */}
+<div className="phonePrices">
 
 
-<Scrollspy/>
+        <Slider {...settings}>
+        <div className="d-flex flex-column justify-content-center align-item-center">
+
+<strong>Basic</strong>
+
+<h4>$39/month</h4>
+
+<ul className="w-100 ">
+
+<li><i className="bi bi-check-circle-fill"></i> todo los beneficios</li>
+<li><i className="bi bi-check-circle-fill"></i> todo special de entrenador </li>
+<li><i className="bi bi-check-circle-fill"></i> Dos entrenadores personales gratis </li>
+<li><i className="bi bi-check-circle-fill"></i> acceso al sauna </li>
+
+</ul>
+
+</div>
+
+<div className="plus">
+
+
+<strong>Plus</strong>
+
+<h4>$59/month</h4>
+
+<ul>
+
+<li><i className="bi bi-check-circle-fill"></i> todo los beneficios</li>
+<li><i className="bi bi-check-circle-fill"></i> todo special de entrenador </li>
+<li><i className="bi bi-check-circle-fill"></i> Dos entrenadores personales gratis </li>
+<li><i className="bi bi-check-circle-fill"></i> acceso al sauna </li>
+<li><i className="bi bi-check-circle-fill"></i> todo special de entrenador </li>
+<li><i className="bi bi-check-circle-fill"></i> Dos entrenadores personales gratis </li>
+<li><i className="bi bi-check-circle-fill"></i> acceso al sauna </li>
+
+</ul>
+
+</div>
+
+<div className="vip ">
+
+
+<strong>VIP</strong>
+
+<h4>$99/month</h4>
+
+<ul>
+
+<li><i className="bi bi-check-circle-fill"></i> todo los beneficios</li>
+<li><i className="bi bi-check-circle-fill"></i> todo special de entrenador </li>
+<li><i className="bi bi-check-circle-fill"></i> Dos entrenadores personales gratis </li>
+<li><i className="bi bi-check-circle-fill"></i> acceso al sauna </li>
+<li><i className="bi bi-check-circle-fill"></i> todo special de entrenador </li>
+<li><i className="bi bi-check-circle-fill"></i> Dos entrenadores personales gratis </li>
+<li><i className="bi bi-check-circle-fill"></i> acceso al sauna </li>
+<li><i className="bi bi-check-circle-fill"></i> acceso al sauna </li>
+
+
+</ul>
+
+</div>
+
+        
+        </Slider>
+      </div>
+
+
+
+<div className="carouselGalllery">
+
+
+
+<h3>COMO SE VE NUESTRO GIMNASIO</h3>
+<h4>GALERIA</h4>
+
+
+<SlickCarousel/>
 
 
 </div>
 
-<hr className="w-75 p-2 rounded-pill bg-secondary mb-3" />
-
-
-<div className="w-100 d-flex flex-column  justify-content-center ">
-
-
-<Images/>
-
-</div>
-
-<a id="up" className="d-flex p-4 justify-content-center align-items-center mb-2" href="#">
-<i className="bi bi-arrow-up-circle fs-2 "></i>
-</a>
 </section>
-*/}
 
 
-<Footer/>
+
+ 
+
+
+<Footer/> 
 
 </main>
 

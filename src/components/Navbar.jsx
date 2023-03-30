@@ -63,13 +63,13 @@ const Navbar = ({DarkModeClick, color, textColor}) => {
 <nav className="informationNavPhone " style={{ '--dark-color': color, '--text-color': textColor}}>
 
 <div className="w-100 h-100 d-flex justify-content-center align-items-center ">
-<div className="contacto-sm">  Contactanos
-</div>
+<NavLink to="/alegre/#contacto"  className=" nosotros-sm text-white "> Contactanos
+</NavLink>
 <NavLink to="/alegre/" className="logo"> 
 <div id="logo" className="">A</div>
 </NavLink>
-<div className="nosotros-sm">  Nosotros
-</div>
+<NavLink to="/alegre/#contacto"  className="nosotros-sm  text-white">  Nosotros
+</NavLink>
 </div>
 
 </nav>

@@ -31,7 +31,7 @@
 }
 
 body {
-    background: var(--page-color) !important;
+    background: var(--dark-color) !important;
 }
 
 .desketopSesionFirstFloor-sm {
@@ -223,11 +223,11 @@ h2 {
 .us {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 80%;
     border-radius: 20px;
     background-color: #ccc;
-    padding: 1em!important;
+    padding: 1em 1em 0 1em !important;
     height: 600px;
 }
 
@@ -280,10 +280,10 @@ h2 {
 
 .us-down-text {
     width: 100%;
-    padding: 12.3px !important;
+    padding: 5px !important;
     background-color: #f1f1f1;
-    height: 20%;
-    border-radius: 14px;
+    height: 30%;
+    border-radius: 14px 14px 0px 0px;
 }
 
 .us-down-text p {

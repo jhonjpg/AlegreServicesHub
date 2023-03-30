@@ -291,6 +291,7 @@ Valoramos la satisfacción del cliente por encima de todo y estamos comprometido
 
           </div>
 
+          <h3 className="fs-1 text-white">Testimonios</h3>
 
 
           <div className="multicarusel">
@@ -334,6 +335,8 @@ Valoramos la satisfacción del cliente por encima de todo y estamos comprometido
           <div className="floors-sm">
 
             <div style={{ '--shadow-color': shadowColor }} className="floorOne-sm  ">
+            <NavLink to="/alegre/supermarket" >   
+
 
               <div className="gradiante-sm">
 
@@ -341,11 +344,13 @@ Valoramos la satisfacción del cliente por encima de todo y estamos comprometido
 
 
               </div>
+              </NavLink>
 
 
             </div>
 
             <div style={{ '--shadow-color': shadowColor }} className="floorTwo-sm">
+            <NavLink to="/alegre/nails-spa" >   
 
               <div className="gradiante-sm">
 
@@ -353,10 +358,12 @@ Valoramos la satisfacción del cliente por encima de todo y estamos comprometido
 
 
               </div>
+              </NavLink>
 
             </div>
 
             <div style={{ '--shadow-color': shadowColor }} className="floorThree-sm ">
+            <NavLink to="/alegre/sport-gym" >   
 
               <div className="gradiante-sm">
 
@@ -364,6 +371,8 @@ Valoramos la satisfacción del cliente por encima de todo y estamos comprometido
 
 
               </div>
+              </NavLink>
+
             </div>
 
 
@@ -485,6 +494,7 @@ Valoramos la satisfacción del cliente por encima de todo y estamos comprometido
           </div>
 
 
+      <h3 className="fs-1 text-white">Testimonios</h3>
 
           <div className="multicarusel w-100">
             <MultiCarousel />

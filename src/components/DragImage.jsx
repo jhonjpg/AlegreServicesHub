@@ -43,7 +43,7 @@ const DragImage = () => {
         slide(e.clientX)
     }
 
-    const handleMouseUp = (e) => {
+    const handleMouseUp = () => {
 
         window.onmousemove = undefined
         window.onmouseup = undefined
@@ -60,8 +60,9 @@ const DragImage = () => {
 
 
 
-   const handleTouchMove = () => {
+   const handleTouchMove = (e) => {
 
+    slide(e.touches.item(0).clientX)
 
    }
    
@@ -85,7 +86,7 @@ const DragImage = () => {
                     className="changeImage"
                 />
 
-                <div style={{ left: `${imageReveal * 98}% ` }} className="split-line ">
+                <div style={{ left: `${imageReveal * 97}% ` }} className="split-line ">
 
                     <div className="position-absolute top-50 start-50 translate-middle   bg-white w-25 h-100 ">
 
