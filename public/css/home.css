@@ -5,6 +5,10 @@
     --text-color: white;
 }
 
+body {
+    scroll-behavior: auto;
+}
+
 
 /* 
 :root {
@@ -54,7 +58,8 @@ body {
 
 .slider-out {
     width: 100%;
-    height: 600px;
+    height: 725px;
+    overflow: hidden;
     /* clip-path: polygon(20% 0%, 80% 0%, 100% 0, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0 0); */
     /* background-image: url("../assets//img//alegre.jpg"); */
 }
@@ -308,7 +313,7 @@ h2 {
     width: 315px;
     height: 178px;
     border-radius: 10px;
-    background-image: url("https://images.pexels.com/photos/4199194/pexels-photo-4199194.jpeg?auto=compress&cs=tinysrgb&w=1200");
+    background-image: url("https://images.pexels.com/photos/323705/pexels-photo-323705.jpeg?auto=compress&cs=tinysrgb&w=1200");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -509,13 +514,13 @@ pre {
     align-items: center;
     width: 75%;
     height: 350px;
-    padding: 1em !important;
+    gap: 2em !important;
 }
 
 .cardno {
     width: 80%;
     height: 100%;
-    padding-top: 10px !important;
+    padding: 10px !important;
 }
 
 .cardno-img {
@@ -531,6 +536,16 @@ pre {
     object-fit: cover;
 }
 
+.slick-slide {
+    padding: 1em !important;
+}
+
+.slick-next:before {
+    content: '→';
+    position: relative;
+    left: 63px;
+}
+
 .cardt {
     position: relative;
     height: 322px;
@@ -539,7 +554,7 @@ pre {
     background: #131313;
     overflow: hidden;
     border-radius: 20px;
-    padding-top: 10px !important;
+    padding: 1em !important;
 }
 
 .temporary_text {

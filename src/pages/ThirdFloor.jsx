@@ -28,20 +28,24 @@ const ThirdFloor = () => {
 
 <section className=" ">
 
-<div className="journey ">  <h3>Empieza tu Entrenamiento <span>Hoy</span> </h3> <p>es un gym center de licey al medio ve unete a nosotros   y empieza a start mas cerca de tu cuerpo deseado</p>
-
-<button><i className="bi bi-telephone-fill"></i>  LLAMANOS</button>
+<div className="journey "> 
 
 
+<div className="w-100 d-flex flex-column gap-3 justify-content-center align-items-center h-75"> <h3 className="z-3">Empieza tu Entrenamiento <span className="z-3">Hoy</span> </h3> <p className="z-3">es un gym center de licey al medio ve unete a nosotros   y empieza a start mas cerca de tu cuerpo deseado</p>
+
+<button className="z-3"><i className="bi bi-telephone-fill"></i>  LLAMANOS</button>
+
+</div>
 
 
-<div className="equipment">
+<div className="equipment z-3">
 
 <li>gymPro</li>
 <li>gymPass</li>
 
 </div>
 
+<div className="opacity"></div>
 
 </div>
 
@@ -82,18 +86,18 @@ const ThirdFloor = () => {
 <ul className="d-flex justify-content-around gap-4 flex-wrap  w-100 h-100">
 
   <li>
-<h6> <i className="bi bi-controller"></i>   verdadera atmosfera de gym</h6>
+<h6> <i src  className="bi bi-controller"></i>   verdadera atmosfera de gym</h6>
 <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus perferendis similique itaque, numquam ex, voluptatem consequatur magni voluptate quod modi magnam, minus vero facilis illo praesentium iure eaque! Amet, deserunt!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis sequi odio beatae error molestias similique saepe adipisci, dolores inventore perspiciatis corrupti laboriosam optio omnis aspernatur, nihil sapiente temporibus quasi?</p>
 
 
   </li>
-  <li><h6><i className="bi bi-display-fill"></i>  verdadera atmosfera de gym</h6>
+  <li><h6><i class="bi bi-capslock"></i>  verdadera atmosfera de gym</h6>
 <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus perferendis similique itaque, numquam ex, voluptatem consequatur magni voluptate quod modi magnam, minus vero facilis illo praesentium iure eaque! Amet, deserunt!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis sequi odio beatae error molestias similique saepe adipisci, dolores inventore perspiciatis corrupti laboriosam optio omnis aspernatur, nihil sapiente temporibus quasi?</p>
 </li>
   <li><h6><i className="bi bi-ev-front-fill"></i>  verdadera atmosfera de gym</h6>
 <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus perferendis similique itaque, numquam ex, voluptatem consequatur magni voluptate quod modi magnam, minus vero facilis illo praesentium iure eaque! Amet, deserunt!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis sequi odio beatae error molestias similique saepe adipisci, dolores inventore perspiciatis corrupti laboriosam optio omnis aspernatur, nihil sapiente temporibus quasi?</p>
 </li>
-  <li><h6> <i className="bi bi-file-earmark-ppt-fill"></i>  verdadera atmosfera de gym</h6>
+  <li><h6> <i class="bi bi-chevron-double-right"></i>  verdadera atmosfera de gym</h6>
 <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus perferendis similique itaque, numquam ex, voluptatem consequatur magni voluptate quod modi magnam, minus vero facilis illo praesentium iure eaque! Amet, deserunt!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum corporis sequi odio beatae error molestias similique saepe adipisci, dolores inventore perspiciatis corrupti laboriosam optio omnis aspernatur, nihil sapiente temporibus quasi?</p>
 </li>
 </ul>

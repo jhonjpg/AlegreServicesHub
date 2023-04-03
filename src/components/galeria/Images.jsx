@@ -118,34 +118,19 @@ const Images = () => {
 
 
             
-
-<ReactImageMagnify {...{ 
-
-smallImage: {
-
-  alt:"wrist",
-  isFluidWidth:true,
-  src:img,
-
-},
-
-largeImage:{
-
-  src:img,
-  width:1200,
-  height:1800,
-
-},
-
-enlargedImageContainerDimensions: {
-  width: "200px",
-  height: 100
-}
-
-}}
-
-
-/>         
+        <ReactImageMagnify {...{
+    smallImage: {
+      
+        alt: 'Wristwatch by Ted Baker London',
+        isFluidWidth: true,
+        src: img
+    },
+    largeImage: {
+        src: img,
+        width: 1200,
+        height: 1800
+    }
+}} />      
 
 
         </div>

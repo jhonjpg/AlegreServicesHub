@@ -52,8 +52,8 @@ const FirtsFloor = () => {
 <section className="desketopSesion ">
 
 
+<h1 className="z-50"> <span> alegre</span><i className="bi bi-cart4"></i></h1>
 
- <h1> <span> alegre</span><i className="bi bi-cart4"></i></h1>
 
  <div className="vegetable-width">
 
